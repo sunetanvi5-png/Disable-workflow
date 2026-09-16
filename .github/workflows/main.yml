@@ -1,0 +1,14 @@
+name: Diable workflow
+
+on:
+  push:
+   branches: [ main ]
+   
+jobs:
+  disable:
+    runs-on: umandtu-latest
+
+    steps:
+      - name: Disable
+      run: echo "Disable command run"
+   
