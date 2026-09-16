@@ -2,7 +2,7 @@ name: Diable workflow
 
 on:
   push:
-   branches: [ main ]
+    branches: [ main ]
    
 jobs:
   disable:
@@ -10,5 +10,5 @@ jobs:
 
     steps:
       - name: Disable
-      run: echo "Disable command run"
+        run: echo "Disable command run"
    
