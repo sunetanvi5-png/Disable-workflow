@@ -3,12 +3,11 @@ name: Diable workflow
 on:
   push:
     branches: [ main ]
-   
+
 jobs:
   disable:
-    runs-on: umandtu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Disable
-        run: echo "Disable command run"
-   
+        run: echo "Disable command run" 
